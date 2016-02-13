@@ -7,7 +7,7 @@
     "prebuild": "npm test",
     "build": "rollup -c",
     "pretest": "rollup -c rollup.test.js",
-    "test": "node lib/loop_spec.js",
+    "test": "snyk test && node lib/loop_spec.js",
     "posttest": "rm lib/loop_spec.js"
   },
   "author": "Matt Gale <matt@littleball.co.uk>",
@@ -17,6 +17,7 @@
     "babel-preset-es2015-rollup": "1.1.1",
     "rollup": "0.25.3",
     "rollup-plugin-babel": "2.3.9",
+    "snyk": "1.9.2",
     "tape": "4.4.0"
   }
 }
