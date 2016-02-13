@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "A loop library for making JavaScript simulations",
   "main": "lib/loop.js",
+  "engine": {
+    "node": "4.3.0",
+    "npm": "3.5.3"
+  },
   "scripts": {
     "prebuild": "npm test",
     "build": "rollup -c",
