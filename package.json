@@ -12,6 +12,7 @@
   },
   "author": "Matt Gale <matt@littleball.co.uk>",
   "license": "MIT",
+  "repository": "https://github.com/littleball-games/lb-loop.git",
   "devDependencies": {
     "babel-preset-es2015-rollup": "1.1.1",
     "rollup": "0.25.3",
