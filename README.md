@@ -12,8 +12,10 @@ A loop library for makeing JavaScript simulations
 ```javascript
 import loop from 'lb-loop'
 
-loop({
+const game = loop({
   update: () => { /* ... */ }
   render: () => { /* ... */ }
-}).start()
+})
+
+game.start()
 ```
